@@ -1,3 +1,20 @@
+#Projeto: Ordenação de Três Valores com Base em um Seletor
+
+#Descrição:
+#Este programa recebe quatro valores: 
+#- Um seletor 'I' (inteiro: 1, 2 ou 3)
+#- Três números reais: A, B e C (valores distintos)
+
+#Com base no valor de 'I', o programa imprime A, B e C de acordo com as seguintes regras:
+#1 - Ordem crescente
+#2 - Ordem decrescente
+#3 - O maior valor fica entre os outros dois
+
+#Funcionalidades:
+#- Validação para garantir que I seja 1, 2 ou 3
+#- Validação para garantir que A, B e C sejam diferentes
+#- Tratamento de erros para entradas inválidas
+
 while True:
     try:
         seletor = int(input("Digite 1 para onde crescente 2 para descresente e 3 para o maior no meio: "))
